@@ -56,43 +56,43 @@ task-app/
 - │   ├── server.js                    # Express server entry point //
 - │   ├── package.json                 # Backend dependencies \\
 - │   ├── .env.example                 # Environment variables template
-│   ├── models/
-│   │   ├── User.js                  # User schema
-│   │   └── Task.js                  # Task schema
-│   ├── routes/
-│   │   ├── auth.js                  # Authentication routes
-│   │   ├── tasks.js                 # Task CRUD routes
-│   │   └── profile.js               # Profile routes
-│   ├── controllers/
-│   │   ├── authController.js        # Auth logic
-│   │   ├── taskController.js        # Task logic
-│   │   └── profileController.js     # Profile logic
-│   └── middleware/
-│       └── auth.js                  # JWT verification middleware
-│
-└── frontend/
-    ├── src/
-    │   ├── main.jsx                 # React entry point
-    │   ├── App.jsx                  # Main app component
-    │   ├── index.css                # Global styles
-    │   ├── pages/
-    │   │   ├── Login.jsx            # Login page
-    │   │   ├── Register.jsx         # Registration page
-    │   │   ├── Dashboard.jsx        # Task dashboard
-    │   │   └── Profile.jsx          # Profile settings
-    │   ├── components/
-    │   │   ├── ProtectedRoute.jsx   # Auth guard component
-    │   │   ├── TaskForm.jsx         # Task creation/edit form
-    │   │   └── TaskList.jsx         # Task list display
-    │   ├── hooks/
-    │   │   └── useAuth.js           # Auth context and hook
-    │   └── services/
-    │       └── api.js               # API service with axios
-    ├── package.json                 # Frontend dependencies
-    ├── vite.config.js               # Vite configuration
-    ├── tailwind.config.js           # Tailwind configuration
-    ├── .env                         # Environment variables template
-    └── index.html                   # HTML entry point
+-│   ├── models/
+-│   │   ├── User.js                  # User schema
+-│   │   └── Task.js                  # Task schema
+-│   ├── routes/
+-│   │   ├── auth.js                  # Authentication routes
+-│   │   ├── tasks.js                 # Task CRUD routes
+-│   │   └── profile.js               # Profile routes
+-│   ├── controllers/
+-│   │   ├── authController.js        # Auth logic
+-│   │   ├── taskController.js        # Task logic
+-│   │   └── profileController.js     # Profile logic
+-│   └── middleware/
+-│       └── auth.js                  # JWT verification middleware
+-│
+-└── frontend/
+-    ├── src/
+-    │   ├── main.jsx                 # React entry point
+-    │   ├── App.jsx                  # Main app component
+-    │   ├── index.css                # Global styles
+-    │   ├── pages/
+-    │   │   ├── Login.jsx            # Login page
+-    │   │   ├── Register.jsx         # Registration page
+-   │   │   ├── Dashboard.jsx        # Task dashboard
+-   │   │   └── Profile.jsx          # Profile settings
+-   │   ├── components/
+-   │   │   ├── ProtectedRoute.jsx   # Auth guard component
+-   │   │   ├── TaskForm.jsx         # Task creation/edit form
+-   │   │   └── TaskList.jsx         # Task list display
+-   │   ├── hooks/
+-   │   │   └── useAuth.js           # Auth context and hook
+-   │   └── services/
+-   │       └── api.js               # API service with axios
+-   ├── package.json                 # Frontend dependencies
+-   ├── vite.config.js               # Vite configuration
+-   ├── tailwind.config.js           # Tailwind configuration
+-   ├── .env                         # Environment variables template
+-   └── index.html                   # HTML entry point
 \`\`\`
 
 ## Installation & Setup
