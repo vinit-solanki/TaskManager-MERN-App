@@ -52,10 +52,10 @@ A complete end-to-end task management application built with React, Node.js, Exp
 
 \`\`\`
 task-app/
-├── backend/
-│   ├── server.js                    # Express server entry point
-│   ├── package.json                 # Backend dependencies
-│   ├── .env.example                 # Environment variables template
+- ├── backend/
+- │   ├── server.js                    # Express server entry point //
+- │   ├── package.json                 # Backend dependencies \\
+- │   ├── .env.example                 # Environment variables template
 │   ├── models/
 │   │   ├── User.js                  # User schema
 │   │   └── Task.js                  # Task schema
