@@ -1,0 +1,21 @@
+{
+  "name": "primetradeai-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\t\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i --prefix frontend && npm i --prefix backend && npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinit-solanki/TaskManager-MERN-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinit-solanki/TaskManager-MERN-App/issues"
+  },
+  "homepage": "https://github.com/vinit-solanki/TaskManager-MERN-App#readme"
+}
